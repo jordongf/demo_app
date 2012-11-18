@@ -5,7 +5,7 @@ gem 'rails', '3.2.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :develope do
+group :development do
   gem 'sqlite3', '1.3.5'
 end
 
@@ -23,9 +23,8 @@ end
 
 gem 'jquery-rails', '2.0.2'
 
-
 group :production do
-  gem 'pg'$, '0.12.2'
+  gem 'pg', '0.12.2'
 end
 
 
@@ -43,3 +42,5 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+
